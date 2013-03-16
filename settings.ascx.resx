@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	
+	
+	<data name="pl_google_sitemaps_show_hidden.Text">
+		<value>Show Hidden Tabs</value>
+	</data>
+	<data name="pl_google_sitemaps_show_hidden.Help">
+		<value>Select whether the Google Sitemaps will include hidden tabs.</value>
+	</data>
+	<data name="pl_google_sitemaps_show_disabled.Text">
+		<value>Show Disabled Tabs</value>
+	</data>
+	<data name="pl_google_sitemaps_show_disabled.Help">
+		<value>Select whether the Google Sitemaps will include disabled tabs.</value>
+	</data>
+	<data name="pl_google_sitemaps_index_non_public.Text">
+		<value>Index Non-Public Tabs</value>
+	</data>
+	<data name="pl_google_sitemaps_index_non_public.Help">
+		<value>Select whether the Google Sitemaps will include tabs that are not visible to the general public.  This option should be left disabled unless you are creating a sitemap for a Google Search Appliance.</value>
+	</data>
+	<data name="pl_google_sitemaps_use_per_page.Text">
+		<value>Use Per-Page Priority Settings</value>
+	</data>
+	<data name="pl_google_sitemaps_use_per_page.Help">
+		<value>Select whether Google Sitemaps priority will use per-page priority settings in DNN 05.01.00+.  If 'Yes' is selected, the priority of each page must be specified individually.   If this setting is set to 'Yes' then you must adjust each page's priority individually.   This setting is ignored in versions of DNN prior to 05.01.00.</value>
+	</data>
+
+
+
+	<data name="pl_yes.Text">
+		<value>Yes</value>
+	</data>
+	<data name="pl_no.Text">
+		<value>No</value>
+	</data>
+	
+	<data name="pl_action_help.Text">
+		<value>Google Sitemaps FAQs</value>
+	</data>
+	
+	<data name="pl_btn_update.Text">
+		<value>Update</value>
+	</data>
+	<data name="pl_btn_cancel.Text">
+		<value>Cancel</value>
+	</data>
+
+	<data name="pl_legal.Text">
+		<value>
+			<![CDATA[
+				The Google name, the Google logo, and Google Sitemaps&trade; are trademarks of Google Inc.
+				DONEIN.NET is in no way affiliated with Google, Inc. and provides no guarantee or warranty regarding the effectiveness of the Google search engine or its web site indexing capabilities.
+			]]>
+		</value>
+	</data>
+</root>
